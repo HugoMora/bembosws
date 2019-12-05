@@ -1,1 +1,1 @@
-web: python application/manage.py runserver
+web: gunicorn bembos.wsgi
